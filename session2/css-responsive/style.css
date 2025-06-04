@@ -1,0 +1,27 @@
+/* Targetting elements at a certain breakpoint (the size of the screen) */
+
+/* min-width you are targetting elements going up. */
+/* max-width you are targetting elements going down */
+
+@media (min-width: 992px) {
+	/* at 992px and above */
+	/* the body of the page will be colored tomato at 992px and above */
+	body {
+		background-color: tomato;
+	}
+
+	h1 {
+		color: blue;
+	}
+}
+
+@media (max-width: 576px) {
+	/* the body of the page will be colored cadetblue at 576px and below */
+	body {
+		background-color: cadetblue;
+	}
+
+	h1 {
+		color: yellow;
+	}
+}

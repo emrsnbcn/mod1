@@ -1,0 +1,10 @@
+Study about 
+
+- CSS (cascading style sheet)
+- how to use CSS on your web page
+- how to target elements / html tags
+- how to use css grids
+- how to use css flex
+- responsive css with display flex.
+
+Post on the digital gecko about your findings/understandings/ learnings/questions.

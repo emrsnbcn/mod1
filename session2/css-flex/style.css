@@ -1,0 +1,84 @@
+/* UNIVERSAL SELECTOR (*) it will select all elements inside. */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* box-sizing: border-box; makes your element true to size.*/
+}
+
+/* .box2 {
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+} */
+
+/* .parent {
+	display: flex;
+	background-color: red;
+	flex-wrap: wrap;
+}
+
+.child {
+	border: 2px solid black;
+}
+
+.child-1 {
+	width: 50%;
+}
+
+.child-2 {
+	width: 30%;
+}
+
+.child-3 {
+	width: 50%;
+} */
+
+.parent {
+	display: flex; /* turns elements into a single row */
+	justify-content: center; /* position all the items at the center */
+	column-gap: 15px;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	row-gap: 15px;
+}
+
+.child {
+	border: 2px solid black;
+	width: 95%;
+}
+
+/* I want to target all the image tags inside an element with class called 'child' */
+.child img {
+	width: 100%;
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 100vh;
+	/* vh = viewport height - it will occupy 100% of your screen */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	text-align: center;
+	border: 2px solid white;
+	/* padding -> spacing inside an element */
+	padding: 20px 40px;
+}
+
+@media (min-width: 576px) {
+	.child {
+		width: 45%;
+	}
+}
+
+@media (min-width: 991px) {
+	.child {
+		width: 20%;
+	}
+}
